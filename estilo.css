@@ -336,10 +336,12 @@ footer a{
     }
 
     header{
+        background-color: black;
         display:flex;
         flex-direction: column;  
     }
     .logo a{
+        color: beige;
         margin:25px;
         font-size: 25px;
     }
@@ -350,10 +352,13 @@ footer a{
     
     li{
         font-size: 5px;
-        padding: 5pxpx;
-
+        padding: 5px;
         display: inline;
     }
+    a{
+        color: beige;
+    }
+
 }
 
 @media only screen and (max-width:1300px){
@@ -396,6 +401,7 @@ footer a{
     
 
     header{
+        background-color: red;
         display:flex;       
         justify-content: space-between;
     }
