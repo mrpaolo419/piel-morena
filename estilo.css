@@ -65,8 +65,9 @@ span{
 
 li{
     display: inline;
-    padding: 30px;
-    font-size: 35px;
+    padding: 5px solid;
+    font-size: 25px;
+
     /* line-height: -180px; */
 }
 
@@ -284,8 +285,8 @@ footer a{
     }
 
     header{
-        display:grid;
-        grid-template-columns: 2;       
+        display:flex;
+        flex-direction: column;    
     }
     .logo a{
         margin:25px;
@@ -302,8 +303,68 @@ footer a{
 
         display: inline;
     }
+}
+
+@media only screen and (max-width:1300px){
+    .inicio{
+        background-color: rgb(139, 139, 117);
+        padding: 30px;
+        display:grid; 
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(4, 100px );
+        grid-template-areas: 
+        "img1"
+        "img2"
+        "img3"
+        "img4";
+        grid-gap: 10px;
+        margin: 0 auto;
+        }
 
 
 
 
+    .elemento{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;    
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin: 0 auto;
+    }    
+
+    .oferta{
+        background-image: url(img/ofertas.jpg);
+        grid-area: img1;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+    }    
+    
+    .iconos{
+        display
+    }
+
+    header{
+        display:flex;       
+        justify-content: space-between;
+    }
+    .logo a{
+        margin:25px;
+        font-size: 25px;
+    }
+    
+    span{
+        font-size: 45px;
+    }
+    
+    li{
+        font-size: 15px;
+        padding: 10px;
+
+        display: inline;
+    }
+    
 }
