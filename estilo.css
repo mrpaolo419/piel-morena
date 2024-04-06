@@ -190,12 +190,14 @@ section{
     font-size: 150px;
     text-align: center;
     align-items: center;
+    background-position: center center;
 }
 
 .hombres{
     background-image: url(img/hombre.jpg);
     grid-area: img2;
-    background-position: top;
+    background-position: initial;
+    
 }
 
 .mujeres{
@@ -239,20 +241,20 @@ footer a{
 }
 
 
-@media only screen and (max-width:1300px){
+@media only screen and (max-width:1469px){
     .inicio{
         background-color: rgb(139, 139, 117);
         padding: 30px;
         display:grid; 
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(4, 100px );
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 70px);
         grid-template-areas: 
-        "img1"
-        "img2"
+        "img1 img2"
+        "img1 img2"
         "img3"
         "img4";
-        grid-gap: 10px;
-        margin: 0 auto;
+        grid-gap: 15px;
+        height: auto;
         }
 
 
@@ -271,11 +273,15 @@ footer a{
 
     .oferta{
         background-image: url(img/ofertas.jpg);
-        grid-area: img1;
-        font-size: 20px;
+        font-size: 100px;
         text-align: center;
         align-items: center;
     }    
+
+    .hombres{
+        background-position: initial;
+        background-size: cover;
+    }
     
 
     header{
@@ -293,10 +299,14 @@ footer a{
     }
     
     li{
-        font-size: 15px;
-        padding: 10px;
-
         display: inline;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .iconos{
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
     }
     
     .galeria{
@@ -363,21 +373,30 @@ footer a{
         background-color: rgb(139, 139, 117);
         padding: 30px;
         display:grid; 
+        height:px;
         grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(4, 100px );
+        grid-template-rows: repeat(4, 250px);
         grid-template-areas: 
         "img1"
         "img2"
         "img3"
         "img4";
         grid-gap: 10px;
-        margin: 0 auto;
+        margin: 0 ;
+        background-position: initial;
         }
+
+
+    .hombres{
+    background-image: url(img/hombre.jpg);
+    background-position: initial;
+    
+    }
 
 
     .galeria{
         width: 100%;
-        height: 1200px;
+        height: auto;
         padding: 20px;
         margin: 5px;
         display: grid;
@@ -455,21 +474,23 @@ footer a{
         background-color: black;
         display:flex;
         flex-direction: column;  
+        height: 120px;
     }
     .logo a{
-        background-color: black;
+        /* background-color: black; */
         color: beige;
-        margin:25px;
-        font-size: 25px;
+        margin: 10px 5px;
+        font-size: 25px; 
     }
     
     span{
         font-size: 45px;
     }
     
-    li{
+    li{           
         
-        font-size: 5px;
+
+        font-size: 15px;
         padding: 5px;
         display: inline;
     }
