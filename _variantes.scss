@@ -17,4 +17,46 @@
 }
 
 
+.calzado{
+    border: 1px solid red;
+
+    
+    
+}
+
+.calzado__img{
+    height: 350px;
+    background-image: url(./img/zapa\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+.calzado__texto{
+    text-align: center;
+    color: red;
+
+}
+
+.calzado__titulo{
+    text-align: center;
+    background-color: brown;
+}
+
+.calzado__buton{
+    width: 100%;
+    display: block;
+    background-color: brown;
+    position: relative;
+    text-align: center;
+    /* padding: 1px 63px; */
+    
+}
+
+.calzado__buton:hover{
+    background-color: rgba(19, 59, 49, 0.925);
+}
+
 

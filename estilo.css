@@ -16,6 +16,40 @@
   font-size: 65px;
 }
 
+.calzado {
+  border: 1px solid red;
+}
+
+.calzado__img {
+  height: 350px;
+  background-image: url(./img/zapa\ 1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.calzado__texto {
+  text-align: center;
+  color: red;
+}
+
+.calzado__titulo {
+  text-align: center;
+  background-color: brown;
+}
+
+.calzado__buton {
+  width: 100%;
+  display: block;
+  background-color: brown;
+  position: relative;
+  text-align: center;
+  /* padding: 1px 63px; */
+}
+
+.calzado__buton:hover {
+  background-color: rgba(19, 59, 49, 0.925);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -32,7 +66,8 @@ header {
 header .logo a {
   font-size: 25px;
   display: flex;
-  align-items: center;
+  align-items: start;
+  font-style: italic;
 }
 header .logo a span {
   font-size: 50px;
@@ -54,9 +89,9 @@ header .iconos {
   margin: 5%, 0px;
 }
 .poner h1 {
-  font-size: 70px;
+  font-size: 100px;
   letter-spacing: 8px;
-  padding-top: 35px;
+  padding-top: 50px;
   text-align: center;
 }
 .poner img {
@@ -104,6 +139,104 @@ footer .redes {
 .inicio .niños {
   background-image: url(img/niño.png);
   grid-area: img4;
+}
+
+.galeria section {
+  width: 180px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 720px) {
+  header {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  header li {
+    font-size: 15px;
+    color: white;
+    padding: 7px;
+  }
+  header a {
+    color: white;
+  }
+  header .logo a {
+    color: white;
+  }
+  header .iconos {
+    display: none;
+  }
+  .poner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .poner h1 {
+    padding: 0;
+    font-size: 20px;
+    align-items: center;
+  }
+  .poner img {
+    margin: 0;
+    height: 70px;
+    width: 70px;
+  }
+  .poner p {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  .inicio {
+    background-color: rgb(139, 139, 117);
+    padding: 30px;
+    display: grid;
+    height: px;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(4, 250px);
+    grid-template-areas: "img1" "img2" "img3" "img4";
+    grid-gap: 10px;
+    margin: 0;
+    background-position: initial;
+  }
+  .oferta {
+    background-image: url(img/ofertas.jpg);
+    grid-area: img1;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  footer {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1469px) {
+  header {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+  }
+  header .iconos {
+    display: flex;
+    flex-direction: column;
+  }
+  header li {
+    font-size: 25px;
+    padding: 10px;
+  }
+}
+.poner img {
+  height: 200px;
+  width: 150px;
+}
+.poner p {
+  padding: 0;
+  font-size: 15px;
+}
+.poner h1 {
+  padding: 0;
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
