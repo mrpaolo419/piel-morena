@@ -50,9 +50,8 @@ $rojo:red;
         .poner{ 
             background-color: rgb(139, 139, 117);
             margin: 5%, 0px;
-            
+            display: flex;
             h1{
-                display: flex;
                 justify-content: center !important;
                 align-items: center;
                 font-size: 100px;
