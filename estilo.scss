@@ -120,7 +120,35 @@ footer{
         justify-content: space-between; 
     }
     }
-
+    @media only screen and (max-width:1469px){
+        header{
+        background-color: $rojo;
+        display: flex;
+        justify-content: space-around;
+        .iconos{
+        display: flex;
+        flex-direction: column;
+            }
+        li{
+            font-size: 25px;
+            padding: 10px;
+        }
+    }
+}
+    .poner{
+        img{
+            height: 200px;
+            width: 150px;
+        }
+        p{
+        padding: 0;
+        font-size: 15px;
+        }
+        h1{
+        padding: 0;
+        font-size: 30px;
+        }    
+}
 
 
     @media only screen and (max-width:720px){
@@ -192,33 +220,5 @@ footer{
             }
     }
 
-    @media only screen and (max-width:1469px){
-            header{
-            background-color: $rojo;
-            display: flex;
-            justify-content: space-around;
-            .iconos{
-            display: flex;
-            flex-direction: column;
-                }
-            li{
-                font-size: 25px;
-                padding: 10px;
-            }
-        }
-    }
-        .poner{
-            img{
-                height: 200px;
-                width: 150px;
-            }
-            p{
-            padding: 0;
-            font-size: 15px;
-            }
-            h1{
-            padding: 0;
-            font-size: 30px;
-            }    
-    }
+
 

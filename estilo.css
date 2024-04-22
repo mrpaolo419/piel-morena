@@ -149,6 +149,34 @@ footer .redes {
   justify-content: space-between;
 }
 
+@media only screen and (max-width: 1469px) {
+  header {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+  }
+  header .iconos {
+    display: flex;
+    flex-direction: column;
+  }
+  header li {
+    font-size: 25px;
+    padding: 10px;
+  }
+}
+.poner img {
+  height: 200px;
+  width: 150px;
+}
+.poner p {
+  padding: 0;
+  font-size: 15px;
+}
+.poner h1 {
+  padding: 0;
+  font-size: 30px;
+}
+
 @media only screen and (max-width: 720px) {
   header {
     background-color: black;
@@ -210,33 +238,6 @@ footer .redes {
   footer {
     font-size: 20px;
   }
-}
-@media only screen and (max-width: 1469px) {
-  header {
-    background-color: red;
-    display: flex;
-    justify-content: space-around;
-  }
-  header .iconos {
-    display: flex;
-    flex-direction: column;
-  }
-  header li {
-    font-size: 25px;
-    padding: 10px;
-  }
-}
-.poner img {
-  height: 200px;
-  width: 150px;
-}
-.poner p {
-  padding: 0;
-  font-size: 15px;
-}
-.poner h1 {
-  padding: 0;
-  font-size: 30px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
