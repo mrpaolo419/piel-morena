@@ -49,13 +49,16 @@ $rojo:red;
 
         .poner{ 
             background-color: rgb(139, 139, 117);
-            align-items: start;
             margin: 5%, 0px;
+            
             h1{
+                display: flex;
+                justify-content: center !important;
+                align-items: center;
                 font-size: 100px;
                 letter-spacing: 8px;
-                padding-top: 50px ; 
-                text-align: center;
+                
+
             }   
             img{
                 width: 200px;
