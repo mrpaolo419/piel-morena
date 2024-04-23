@@ -50,10 +50,8 @@
   background-color: rgba(19, 59, 49, 0.925);
 }
 
-.animacion {
+h1 {
   background-color: green;
-  width: 500px;
-  height: 150px;
   animation-name: efecto;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
@@ -140,14 +138,12 @@ header .iconos {
 
 .poner {
   background-color: rgb(139, 139, 117);
-  margin: 5%, 0px;
+  text-align: center;
 }
 .poner h1 {
-  display: flex;
-  justify-content: center !important;
-  align-items: center;
   font-size: 100px;
-  letter-spacing: 8px;
+  width: 300px solid !important;
+  height: 120px;
 }
 .poner img {
   width: 200px;
@@ -227,8 +223,9 @@ footer .redes {
     font-size: 15px;
   }
   .poner h1 {
+    width: 100%;
     padding: 0;
-    font-size: 30px;
+    font-size: 80px;
   }
 }
 @media only screen and (max-width: 720px) {
@@ -258,8 +255,12 @@ footer .redes {
   }
   .poner h1 {
     padding: 0;
-    font-size: 20px;
+    font-size: 35spx;
     align-items: center;
+  }
+  .poner .animacion {
+    height: 50px;
+    width: 100%;
   }
   .poner img {
     margin: 0;
@@ -285,7 +286,7 @@ footer .redes {
   .oferta {
     background-image: url(img/ofertas.jpg);
     grid-area: img1;
-    font-size: 20px;
+    font-size: 80px !important;
     text-align: center;
     align-items: center;
   }
