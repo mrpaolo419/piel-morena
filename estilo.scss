@@ -1,4 +1,6 @@
+
 @use 'variantes';
+
 
 $red: red;
 $blanco: white;
@@ -200,9 +202,7 @@ footer{
             width: 100%;
         }
             img{
-                margin: 0;
-                height: 70px;
-                width: 70px;
+                display: none;
             }
             p{
                 padding: 5px 10px;
