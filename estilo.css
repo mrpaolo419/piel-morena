@@ -136,6 +136,7 @@ header .iconos {
 
 body {
   background-image: url(imagen/13.jpg);
+  background-size: 180px;
   background-repeat: repeat;
 }
 
@@ -228,7 +229,7 @@ footer .redes {
   }
   h1 {
     text-align: center;
-    font-size: 70px !important;
+    font-size: 50px !important;
     width: 300px;
     height: 100px solid;
   }
@@ -286,17 +287,15 @@ footer .redes {
   .inicio {
     padding: 30px;
     display: grid;
-    height: px;
+    height: 250px solid;
     grid-template-columns: repeat(1, 100%);
-    grid-template-rows: repeat(4, 250px);
+    grid-template-rows: repeat(4, 150px);
     grid-template-areas: "img1" "img2" "img3" "img4";
-    grid-gap: 10px;
-    margin: 0;
-    background-position: initial;
+    grid-gap: 5px;
   }
   .oferta {
-    font-size: 80px !important;
+    font-size: 80PX !important;
   }
 }
 
-/*# sourceMappingURL=esilo.css.map */
+/*# sourceMappingURL=estilo.css.map */
