@@ -14,71 +14,68 @@ $rojo:red;
     box-sizing: border-box;
 }
 
-        header{
-            height: 130px;
-            background-color:$blanco;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-    
-    
-            .logo a{
+header{
+    height: 130px;
+    background-color:$blanco;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        .logo a{
             font-size: 25px;
             display: flex;
             align-items: start;
             font-style:italic;
-            
-            span{
+        span{
             font-size: 50px;
             padding: 10px;
-            }            
-            }    
-
-        
-                li{
-                display: inline;
-                padding: 25px;
-                font-size: 30px;
-                }
-
-                .iconos{
-                    letter-spacing: 20px;
-                    font-size: 30px;
-                
-                }
-}
-
-
-        .poner{ 
-            background-color: rgb(139, 139, 117);
-            text-align: center;
-            
-            h1{
-            font-size: 100px;
-            width: 300px solid !important;
-            height: 120px;
-
-            }   
-            img{
-                width: 200px;
-                height: 250px;
-                float: left;
-                margin: 10px;    
-            }
+        }            
+    }    
+        li{
+        display: inline;
+        padding: 25px;
+        font-size: 30px;
+    }
+        .iconos{
+        letter-spacing: 20px;
+        font-size: 30px;
+    }
+    }
+body{
     
-                p{    
-                padding:35px;
-                font-size: 25px;
-            }
+    background-image: url(imagen/13.jpg);
+    background-repeat: repeat;
+    
+    }
+
+
+.poner{ 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+    text-align: center;
+    font-size: 100px  ;
+    width: 500px ;
+    height: 100px solid ;
+    margin: 20px 15px;
+    }   
+    img{
+    width: 200px;
+    height: 250px;
+    float: left;
+    margin: 10px;    
+    }
+    
+    p{    
+    padding:0px 35px; 
+    font-size: 25px;
+    }
 }
 
-.animacion{
-    align-items: center;
-}
 
 
 .inicio{
-    background-color: rgb(139, 139, 117);
     display: grid;
     grid-template-columns: repeat(3, 10fr);
     grid-template-rows: repeat(4, 180px );
@@ -91,25 +88,25 @@ $rojo:red;
     padding: 50px, ;
 
     .oferta{
-        background-image: url(img/oferta.png);
+        background-image: url(imagen/oferta.png);
         grid-area: img1;
         font-size: 150px;
     }
     .hombres{
-        background-image: url(img/HOMBRES.png);
+        background-image: url(imagen/HOMBRES.png);
         grid-area: img2;
     }
     .mujeres{
-        background-image: url(img/mujer.jpg);
+        background-image: url(imagen/mujer.jpg);
         grid-area: img3;
     }
     .niños{
-        background-image: url(img/niño.png);
+        background-image: url(imagen/niños.jpg);
         grid-area: img4;
     }
 }
 
-.galeria{
+.galeria {
     width: 100%;
     height: 1000px;
     padding: 20px;
@@ -132,7 +129,7 @@ footer{
 }
 
     
-@media only screen and (max-width:1469px){
+    @media only screen and (max-width:1469px){
     header{
     background-color: $rojo;
     display: flex;
@@ -146,72 +143,72 @@ footer{
     padding: 10px;
     }
     }
-                .poner{
-                    img{
-                    height: 200px;
-                    width: 150px;
-                }
-                    p{
-                    padding: 0;
-                    font-size: 15px;
-                }
-                    h1{
-                    width: 100%;
-                    padding: 0;
-                    font-size: 80px;
-                }    
-            }
     
-}
-
-
-
+    .poner{
+        display: flex;
+        }
+            h1{
+            text-align: center;
+            font-size: 70px !important;
+            width: 300px ;
+            height: 100px solid ;
+        }
+        img{
+        height: 200px;
+        width: 150px;
+        }
+        p{
+        padding: 0;
+        font-size: 15px;
+        }
+        h1{
+        width: 100%;
+        padding: 0;
+        font-size: 80px;
+        }    
+    }
     @media only screen and (max-width:720px){
         header{
-            background-color: $negro;
-            display: flex;
+            background-color:$negro;
+            display :flex;
             flex-direction: column;
             li{
-                font-size: 15px;
-                color: $blanco;
-                padding: 7px;
+            font-size :15px;
+            color: $blanco;
+            padding: 7px;
             }
             a{
-                color: $blanco;
+            color :$blanco;
             }
             .logo a{
-                color: $blanco;
+            color: $blanco;
             }
             .iconos{
-                display: none;
-            }
+        display: none;
         }
-        .poner{
-        display: flex;
-        flex-direction: column;
+        }
+    .poner{
+        display :flex;
+        flex-direction :column;
         align-items:center;
-
         
-        h1{
-            padding: 0;
-            font-size: 35spx;
-            align-items: center;
-        }
-        .animacion{
+            h1{
+            text-align: center;
+            font-size: 35px !important;
+            width: 170px ;
             height: 50px;
-            width: 100%;
         }
             img{
                 display: none;
             }
-            p{
-                padding: 5px 10px;
-                font-size: 10px;
-            }
-            
-        }
+        p{
+            font-size: 15px;
+        }    
+    }
+
+
         .inicio{
-            background-color: rgb(139, 139, 117);
+            
             padding: 30px;
             display:grid; 
             height:px;
@@ -226,29 +223,7 @@ footer{
             margin: 0 ;
             background-position: initial;
             }
-
-            .galeria{
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                height: 950spx;
-                .calzado__img{
-                    height: 200px;
-                    background-image: url(./img/zapa\ 1.jpg);
-                    background-position: center;
-                    background-size: cover;
-                }
-            }
-                .oferta{
-                    background-image: url(img/ofertas.jpg);
-                    grid-area: img1;
-                    font-size: 80px !important;
-                    text-align: center;
-                    align-items: center;
-                }
-            footer{
-                font-size: 20px;
-            }
-    }
-
-
-
+    .oferta{
+        font-size: 80px !important;
+        }
+        }

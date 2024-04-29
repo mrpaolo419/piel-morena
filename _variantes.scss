@@ -60,57 +60,57 @@
     background-color: rgba(19, 59, 49, 0.925);
 }
 
-            .animacion{
-                background-color: green;
-                animation-name: efecto;
-                animation-iteration-count: infinite;
-                animation-timing-function: ease-in;
-                animation-duration: 5s;
-            }
+h1{
+    background-color: green;
+    animation-name: efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+    }
 
-            @keyframes efecto {
-                0% {
-                    background-color: #CD5C5C;
-                    font-family:Arial, Helvetica, sans-serif ;
-                }
-                10% {
-                    background-color:#FFD700 ;
-                    font-family: 'Times New Roman', Times, serif;
-                }
-                20% {
-                    background-color: #FFA500 ;
-                    font-family: 'Courier New', Courier, monospace;
-                }
-                30% {
-                    background-color:#808000 ;
-                    font-family: Verdana, Geneva, Tahoma, sans-serif;
-                }
-                40% {
-                    background-color:#32CD32 ;
-                    font-family: comic sans-serif;
-                }
-                50% {
-                    background-color: #FF69B4;
-                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                }
-                60% {
-                    background-color: #800080 ;
-                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                }
-                70% {
-                    background-color: #800020;
-                    font-family: Georgia, 'Times New Roman', Times, serif;
-                }
-                80%{
-                    background-color: #E2725B;
-                    font-family:palatino linotype  ;
-                }
-                90% {
-                    background-color: #FFDAB9;
-                    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                }
-                100% {
-                    background-color: yellowgreen;
-                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                }
-            }
+@keyframes efecto {
+    0% {
+    background-color: #CD5C5C;
+    font-family:Arial, Helvetica, sans-serif ;
+    }
+    10% {
+    background-color:#FFD700 ;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    20% {
+    background-color: #FFA500 ;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    30% {
+    background-color:#808000 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    40% {
+    background-color:#32CD32 ;
+    font-family: comic sans-serif;
+    }
+    50% {
+    background-color: #FF69B4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    60% {
+    background-color: #800080 ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    70% {
+    background-color: #800020;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    80%{
+    background-color: #E2725B;
+    font-family:palatino linotype  ;
+    }
+    90% {
+    background-color: #FFDAB9;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    100% {
+    background-color: yellowgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
