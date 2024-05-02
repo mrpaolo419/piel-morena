@@ -133,9 +133,14 @@ header .iconos {
 }
 
 body {
-  background-image: url(imagen/13.jpg);
+  background-image: url(imagen/logos/fond13.png);
   background-size: 180px;
   background-repeat: repeat;
+}
+
+#logo3 {
+  height: 50px;
+  width: 200px;
 }
 
 .poner {
@@ -171,20 +176,20 @@ body {
   padding: 50px;
 }
 .inicio .oferta {
-  background-image: url(imagen/oferta.png);
+  background-image: url(./imagen/ofertas/oferta.png);
   grid-area: img1;
   font-size: 150px;
 }
 .inicio .hombres {
-  background-image: url(imagen/HOMBRES.png);
+  background-image: url(./imagen/hombre/HOMBRES.png);
   grid-area: img2;
 }
 .inicio .mujeres {
-  background-image: url(imagen/mujer.jpg);
+  background-image: url(./imagen/dama/mujer.jpg);
   grid-area: img3;
 }
 .inicio .niños {
-  background-image: url(imagen/niños.jpg);
+  background-image: url(./imagen/ninos/niño.png);
   grid-area: img4;
 }
 
@@ -209,6 +214,32 @@ footer .redes {
   letter-spacing: 20px;
 }
 
+#headenlaces {
+  height: auto;
+}
+#headenlaces .logoenlaces {
+  color: black;
+  height: 60px;
+}
+#headenlaces .logoenlaces img {
+  width: 200px;
+  height: 60px;
+}
+
+.slide {
+  margin: 20px 320px;
+}
+.slide img {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-img-top:hover {
+  opacity: 0;
+  transition: 300ms ease-out;
+}
+
 @media only screen and (max-width: 1469px) {
   header {
     background-color: red;
@@ -216,8 +247,7 @@ footer .redes {
     justify-content: space-around;
   }
   header .iconos {
-    display: flex;
-    flex-direction: column;
+    display: none;
   }
   header li {
     font-size: 25px;
@@ -245,6 +275,9 @@ footer .redes {
     padding: 0;
     font-size: 80px;
   }
+  .slide {
+    margin: 25px;
+  }
 }
 @media only screen and (max-width: 720px) {
   header {
@@ -255,7 +288,7 @@ footer .redes {
   header li {
     font-size: 15px;
     color: white;
-    padding: 7px;
+    padding: 5px;
   }
   header a {
     color: white;
@@ -294,6 +327,12 @@ footer .redes {
   }
   .oferta {
     font-size: 80PX !important;
+  }
+  .slide {
+    margin: 5px;
+  }
+  .slide img {
+    height: 300px;
   }
 }
 
